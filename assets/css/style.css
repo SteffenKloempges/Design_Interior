@@ -294,10 +294,19 @@ footer section ul li{
         width: 50%;
     }
     footer section{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr)
+        display: block;
+        text-align: center;
     }
-    footer section ul li{
-        padding: 0px 0px 0px 10px;
+    footer p{
+        margin: 0px 0px 10px 0px;
+        padding: 0;
+    }
+    footer ul{
+        margin: 0;
+        padding: 10px 0px;
+    }
+    footer ul li{
+        padding: 0;
+        margin: 0;
     }
 }
